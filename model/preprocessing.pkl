@@ -1,0 +1,20 @@
+import pickle
+import os
+
+# The class_to_idx mapping determined during preprocessing
+# This assumes 'class_to_idx' is still in memory or can be reconstructed.
+# Based on previous output, it was: {'glioma': 0, 'meningioma': 1, 'notumor': 2, 'pituitary': 3}
+class_to_idx = {'glioma': 0, 'meningioma': 1, 'notumor': 2, 'pituitary': 3}
+
+# Define the directory and file path for preprocessing.pkl
+model_dir = "brain_tumor_detection/model"
+preprocessing_file_path = os.path.join(model_dir, "preprocessing.pkl")
+
+# Ensure the model directory exists
+os.makedirs(model_dir, exist_ok=True)
+
+# Save the class_to_idx mapping to a pickle file
+with open(preprocessing_file_path, 'wb') as f:
+    pickle.dump(class_to_idx, f)
+
+print(f"Class mapping saved successfully to: {preprocessing_file_path}")
