@@ -1,0 +1,11 @@
+import os
+
+saved_model_dir = "brain_tumor_detection/model/saved_model"
+os.makedirs(saved_model_dir, exist_ok=True)
+
+model_save_path = os.path.join(saved_model_dir, "model.h5")
+
+# Save the trained model
+model.save(model_save_path)
+
+print(f"Model saved successfully to: {model_save_path}")
