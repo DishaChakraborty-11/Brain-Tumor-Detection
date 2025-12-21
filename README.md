@@ -4,6 +4,31 @@
 > The model achieves high accuracy and helps in early diagnosis through automated image classification.
 
 ---
+Dataset
+
+Source: Public Brain Tumor MRI datasets available on Kaggle
+
+Data type: MRI brain scan images
+
+Classes:
+
+Glioma
+
+Meningioma
+
+Pituitary Tumor
+
+No Tumor
+
+Notes:
+
+A subset of the dataset was used for training and evaluation.
+
+Images were resized and normalized before training.
+
+Basic data augmentation was applied to improve generalization.
+
+---
 
 ## 🚀 Project Overview
 This project aims to automate brain tumor detection from MRI images using deep learning techniques.  
@@ -84,6 +109,32 @@ Integrate the model into a Flask web app for real-time predictions
 Use Grad-CAM for visualizing the tumor area in MRI images
 
 Deploy the model using Streamlit or Render
+
+---
+
+Limitations
+
+Trained on a limited public dataset
+
+Dataset may be imbalanced
+
+No cross-dataset or clinical validation performed
+
+Not optimized for production or real-world medical deployment
+
+---
+
+Intended Use
+
+Educational demonstrations
+
+Portfolio showcase
+
+Learning CNN-based medical image classification
+
+Understanding ML deployment workflows
+
+---
 
 👩‍💻 Author
 Disha Chakraborty
