@@ -3,6 +3,7 @@
 > A deep learning project that detects and classifies brain tumors from MRI images using a Convolutional Neural Network (CNN).  
 > The model achieves high accuracy and helps in early diagnosis through automated image classification.
 
+⚠️ Disclaimer: This project is intended for learning and demonstration purposes only and is not suitable for clinical or medical use.
 ---
 Dataset
 
