@@ -12,21 +12,16 @@ Data type: MRI brain scan images
 
 Classes:
 
-Glioma
-
-Meningioma
-
-Pituitary Tumor
-
-No Tumor
+- Glioma
+- Meningioma
+- Pituitary Tumor
+- No Tumor
 
 Notes:
 
-A subset of the dataset was used for training and evaluation.
-
-Images were resized and normalized before training.
-
-Basic data augmentation was applied to improve generalization.
+- A subset of the dataset was used for training and evaluation.
+- Images were resized and normalized before training.
+- Basic data augmentation was applied to improve generalization.
 
 ---
 
