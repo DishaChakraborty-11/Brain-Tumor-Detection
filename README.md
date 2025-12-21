@@ -5,9 +5,7 @@
 
 ⚠️ Disclaimer: This project is intended for learning and demonstration purposes only and is not suitable for clinical or medical use.
 ---
-Dataset
-
-Source: Public Brain Tumor MRI datasets available on Kaggle
+Dataset Source: Public Brain Tumor MRI datasets available on Kaggle
 
 Data type: MRI brain scan images
 
